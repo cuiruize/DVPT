@@ -1,10 +1,11 @@
 # [CMIG'25] DVPT
 
 <div align=center>
-<img src="assets/overview.png" height=230 width=750>
+<img src="assets/overview.png" height=460 width=750>
 </div>
 
 Official implementation of paper "Taming Large Vision Model for Medical Image Segmentation via Dual Visual Prompting".
+
 [Ruize Cui](https://scholar.google.com/citations?hl=zh-CN&user=rAcxfuUAAAAJ), [Lanqing Liu](https://scholar.google.com/citations?user=36Is6IwAAAAJ&hl=zh-CN), Jing Zou, [Xiaowei Hu](https://scholar.google.com/citations?user=tUb4J0kAAAAJ&hl=en), [Jialun Pei](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en), and [Jing Qin](https://harry-qinjing.github.io/)
 
 👀 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S089561112500117X)
