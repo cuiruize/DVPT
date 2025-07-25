@@ -9,6 +9,7 @@ Official implementation of paper "Taming Large Vision Model for Medical Image Se
 [Ruize Cui](https://scholar.google.com/citations?hl=zh-CN&user=rAcxfuUAAAAJ), [Lanqing Liu](https://scholar.google.com/citations?user=36Is6IwAAAAJ&hl=zh-CN), Jing Zou, [Xiaowei Hu](https://scholar.google.com/citations?user=tUb4J0kAAAAJ&hl=en), [Jialun Pei](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en), and [Jing Qin](https://harry-qinjing.github.io/)
 
 👀 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S089561112500117X)
+[[Free access before 09/09/2025]](https://authors.elsevier.com/c/1lTXO_KNIIIzUL)
 
 **Contact:** ruize.cui@connect.polyu.hk, peijialun@gmail.com
 
@@ -49,9 +50,11 @@ Please utilize the inpaint.py for hair elimination.
 Change the path of the datasets as:
 ```shell
 DATASET_ROOT = 'DVPT/ISIC2017/'
-TRAIN_PATH = os.path.join(DATASET_ROOT, 'train/')
-TEST_PATH = os.path.join(DATASET_ROOT, 'test/')
-VAL_PATH = os.path.join(DATASET_ROOT, 'val/')
+IMG_ROOT = 'DVPT/ISIC2017/img'
+LABEL_ROOT = 'DVPT/ISIC2017/label'
+TRAIN_PATH = os.path.join(IMG_ROOT/LABEL_ROOT, 'train/')
+TEST_PATH = os.path.join(IMG_ROOT/LABEL_ROOT, 'test/')
+VAL_PATH = os.path.join(IMG_ROOT/LABEL_ROOT, 'val/')
 ```
 
 ## Train
@@ -62,7 +65,7 @@ python train.py --dataset {PATH_TO_DATASET} --batch_size 4 --learning_rate 1e-3 
 
 Please replace {PATH_TO_DATASET} to your own dataset dir
 
-## 📚 Citation
+## Citation
 
 If this work helps you, please cite this work:
 
