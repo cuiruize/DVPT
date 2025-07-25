@@ -46,8 +46,8 @@ test_img = []
 test_mask = []
 
 folders = ['train']
-image_folder = 'ISIC_2017_no_hair'
-mask_folder = 'isic/label'
+image_folder = 'ISIC_2017/img'
+mask_folder = 'ISIC_2017/label'
 
 for folder in folders:
     imgdir = image_folder + '/' + folder
