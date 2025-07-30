@@ -1,4 +1,4 @@
-# [CMIG'25] DVPT
+# [CMIG'25] DVPT: Taming Large Vision Model for Medical Image Segmentation via Dual Visual Prompting
 
 <div align=center>
 <img src="assets/overview.png" height=460 width=750>
